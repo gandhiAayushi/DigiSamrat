@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></android.support.v7.widget.Toolbar>
+
+    <Button
+        android:layout_width="185dp"
+        android:id="@+id/btn_academics"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/colorAccent"
+        android:text="Academics"
+        android:textSize="30dp"
+        android:textColor="@color/cardview_light_background"/>
+    <Button
+        android:layout_width="185dp"
+        android:id="@+id/btn_others"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/btn_academics"
+        android:background="@color/colorAccent"
+        android:text="Others"
+        android:textSize="30dp"
+        android:textColor="@color/cardview_light_background"/>
+    <Button
+        android:layout_width="185dp"
+        android:id="@+id/btn_community"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/btn_others"
+        android:background="@color/colorAccent"
+        android:text="sati community"
+        android:textSize="30dp"
+        android:textColor="@color/cardview_light_background"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/chatbot"
+        android:id="@+id/chatbot"
+        android:clickable="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="280dp"/>
+
+
+
+
+
+</RelativeLayout>

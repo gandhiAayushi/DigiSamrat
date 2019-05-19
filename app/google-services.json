@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "386113111343",
+    "firebase_url": "https://photoblog-67d19.firebaseio.com",
+    "project_id": "photoblog-67d19",
+    "storage_bucket": "photoblog-67d19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386113111343:android:afd67d9e6395e0e5",
+        "android_client_info": {
+          "package_name": "com.example.cs.photoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386113111343-ru0qjgs9i6n63vg9be5tg7v1v96adi6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cs.photoblog",
+            "certificate_hash": "edff6935a6925d10948d308748c98566e0932e85"
+          }
+        },
+        {
+          "client_id": "386113111343-m1pp2i9vli8k5jhej5dauvd4j9rnlma5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0nCe4YP5McD2Eb0xLOPuxecIPM4q258"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386113111343-m1pp2i9vli8k5jhej5dauvd4j9rnlma5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386113111343:android:f2197643bf0111e7",
+        "android_client_info": {
+          "package_name": "in.tvac.akshayejh.photoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386113111343-m1pp2i9vli8k5jhej5dauvd4j9rnlma5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0nCe4YP5McD2Eb0xLOPuxecIPM4q258"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
