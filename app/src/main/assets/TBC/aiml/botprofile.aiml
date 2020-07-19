@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+    <pattern>hello</pattern>
+    <template>Hello Student. Looks like you have a query. How can I help you?</template>
+  </category>
+  
+  	<category>
+    <pattern>hi</pattern>
+    <template><srai>hello</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>hi *</pattern>
+    <template><srai>hello</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>hello *</pattern>
+    <template><srai>hello</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>club</pattern>
+    <template>For any club event details go to Others option in dashboard.</template>
+  </category>
+  
+  	<category>
+    <pattern>event *</pattern>
+    <template><srai>club</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>club *</pattern>
+    <template><srai>club</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* event *</pattern>
+    <template><srai>club</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* club *</pattern>
+    <template><srai>club</srai></template>
+  </category>
+
+
+  <category>
+    <pattern>* event</pattern>
+    <template><srai>club</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* club</pattern>
+    <template><srai>club</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>exam fees</pattern>
+    <template>Just visit http://www.satiengg.in/. Login and go to students service for the exam fees.</template>
+  </category>
+  
+  	<category>
+    <pattern>exam fees *</pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* exam fees *</pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* fees *</pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+  
+<category>
+    <pattern>* exam fees</pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+  
+  <category>
+    <pattern>fees *</pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+  
+   <category>
+    <pattern>fees</pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+
+  <category>
+    <pattern>* fees </pattern>
+    <template><srai>exam fees</srai></template>
+  </category>
+  	<category>
+    <pattern>notes</pattern>
+    <template>Just go to academics in dashboard and select your branch. Then select the subject for which you want notes or papers.</template>
+  </category>
+  
+  	<category>
+    <pattern>* paper *</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>notes *</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+
+ <category>
+    <pattern>paper *</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+
+<category>
+    <pattern>* paper</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* notes</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+
+<category>
+    <pattern>paper</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+
+<category>
+    <pattern>papers</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+<category>
+    <pattern>* papers</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+
+<category>
+    <pattern>papers *</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+  
+  
+  	<category>
+    <pattern>* notes *</pattern>
+    <template><srai>notes</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>branch</pattern>
+    <template>For any query related to your department, you can discuss in SATI COMMUNITY.</template>
+  </category>
+  
+  	<category>
+    <pattern>* branch *</pattern>
+    <template><srai>branch</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* department *</pattern>
+    <template><srai>branch</srai></template>
+  </category>
+
+<category>
+    <pattern>branch *</pattern>
+    <template><srai>branch</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>department *</pattern>
+    <template><srai>branch</srai></template>
+  </category>
+
+ <category>
+    <pattern>* branch</pattern>
+    <template><srai>branch</srai></template>
+  </category>
+  
+  	<category>
+    <pattern>* department</pattern>
+    <template><srai>branch</srai></template>
+  </category>
+  
+  
+  
+  <category>
+    <pattern>Computer Science </pattern>
+    <template>You will find here the subject notes and the knowledge of emerging technologies</template>
+  </category>
+  
+  <category>
+    <pattern>* CSE *</pattern>
+    <template><srai>Computer Science</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* Computer Science * </pattern>
+    <template><srai>Computer Science</srai></template>
+  </category>
+  
+  
+  <category>
+    <pattern>Digi Samrat</pattern>
+    <template>DIgi is here to keep you aware of the ongoing activites in institute and also prvoides you subject material and community to share your views</template>
+  </category>
+  
+  <category>
+    <pattern>* Digi Samrat * </pattern>
+    <template><srai>Digi Samrat</srai></template>
+  </category>
+  
+  <category>
+     <pattern>* technologies in computer science *</pattern>
+     <template>There are lots of opportunites in this field. some technologies are Machine learning, Big data and Hadoop, deep learning, Android Development, Web Development.
+               for more go to http://www.google.co.in/ </template>
+  </category>
+  
+  <category> 
+    <pattern>coding</pattern>
+    <template>coding needs practice and there are many online platforms for it.Like HackerRank, CodeChef, Coding Ninjas ets.Go ahead and become a good programmer</template>
+    </category>
+    
+    <category>
+        <pattern>* java *</pattern>
+        <template>coding</template>
+    </category>
+    
+    <category>
+        <pattern>* coding *</pattern>
+        <template>coding</template>
+    </category>
+    
+     <category>
+        <pattern>* python *</pattern>
+        <template>coding</template>
+    </category>
+    
+    <category>
+        <pattern>* C *</pattern>
+        <template>coding</template>
+    </category>
+    
+     <category>
+        <pattern>* c++ *</pattern>
+        <template>coding</template>
+    </category>
+    
+     <category>
+        <pattern>* learn new techologies *</pattern>
+        <template>its good to learn something new you can learn from:Udemy, Coursera, udacity etc.</template>
+        </category>
+        
+  <category>
+     <pattern>*</pattern>
+     <template>Sorry, I don’t have any answer for this. But you can join SATI community  in dashboard for any futher help.</template>
+  </category>
+  
+ 
+</aiml>
